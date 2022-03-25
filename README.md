@@ -12,3 +12,7 @@
 ## 配置[postcss](https://github.com/postcss/autoprefixer)
 
 具体配置见 postcss.config.js
+
+## 配置[eslint](https://eslint.bootcss.com/docs/user-guide/getting-started)
+
+> npm install eslint --save-dev
