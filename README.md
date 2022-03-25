@@ -16,3 +16,5 @@
 ## 配置[eslint](https://eslint.bootcss.com/docs/user-guide/getting-started)
 
 > npm install eslint --save-dev
+
+## 配置[editorConfig](https://blog.windrunner.me/pages/editorconfig.html)
