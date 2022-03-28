@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    /* Language and Environment */
+    "target": "ES5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react",
+
+    /* Modules */
+    "module": "ESNext",
+    "paths": {
+      // 路径映射，与 baseUrl 关联
+      "@/*": ["./src/*"]
+    },
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true, 
+
+    /* Type Checking */
+    "strict": true, 
+    "skipLibCheck": true
+  }
+}

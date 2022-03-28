@@ -1,4 +1,3 @@
-
 # react
 
 ## 配置[browserslistrc](https://github.com/browserslist/browserslist)
@@ -16,16 +15,3 @@
 ## 配置[editorConfig](https://blog.windrunner.me/pages/editorconfig.html)
 
 ## 配置[eslint](https://eslint.bootcss.com/docs/user-guide/getting-started)
-
-> npm install eslint --save-dev
-
-
-eslint + airbnb
-
-eslint + react
-
-eslint + typescript
-
-eslint + prettier
-
-eslint + stylelint

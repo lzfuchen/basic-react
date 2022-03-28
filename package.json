@@ -37,7 +37,8 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-unicorn": "^41.0.1",
     "postcss": "^8.4.12",
-    "prettier": "^2.6.1"
+    "prettier": "^2.6.1",
+    "typescript-plugin-css-modules": "^3.4.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.17.8",
