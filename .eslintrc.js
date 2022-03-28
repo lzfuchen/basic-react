@@ -1,40 +1,29 @@
 module.exports = {
-	root: true,
-	'env': {
-		'browser': true,
-		'es2021': true,
-		node: true
-	},
-	'extends': [
-		'eslint:recommended',
-		'plugin:react/recommended',
-		'plugin:@typescript-eslint/recommended'
-	],
-	'parser': '@typescript-eslint/parser',
-	'parserOptions': {
-		'ecmaFeatures': {
-			'impliedStrict': true,
-			'jsx': true
-		},
-		'ecmaVersion': 'latest',
-		'sourceType': 'module'
-	},
-	'plugins': [
-		'react',
-		'@typescript-eslint'
-	],
-	'rules': {
-		'linebreak-style': [
-			'error',
-			'unix'
-		],
-		'quotes': [
-			'error',
-			'single'
-		],
-		'semi': [
-			'error',
-			'never'
-		]
-	}
+  env: {
+    browser: true,
+    es2021: true,
+    node: true
+  },
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:react/recommended',
+    'plugin:unicorn/recommended',
+    'plugin:promise/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended'
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      impliedStrict: true,
+      jsx: true
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module'
+  },
+  plugins: ['react', 'unicorn', 'promise', '@typescript-eslint', 'prettier'],
+  rules: {
+    'unicorn/prefer-module': OFF
+  }
 }

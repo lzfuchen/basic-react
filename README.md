@@ -19,3 +19,13 @@
 
 > npm install eslint --save-dev
 
+
+eslint + airbnb
+
+eslint + react
+
+eslint + typescript
+
+eslint + prettier
+
+eslint + stylelint
