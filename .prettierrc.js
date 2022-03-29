@@ -1,12 +1,12 @@
 module.exports = {
-  trailingComma: 'none',
+  printWidth: 120,
   tabWidth: 2,
   semi: false,
   singleQuote: true,
   jsxSingleQuote: true,
-  endOfLine: 'lf',
-  printWidth: 120,
-  proseWrap: 'never',
+  trailingComma: 'none',
   bracketSpacing: true,
+  endOfLine: 'lf',
+  proseWrap: 'never',
   arrowParens: 'always'
 }
