@@ -15,3 +15,7 @@
 ## 配置[editorConfig](https://blog.windrunner.me/pages/editorconfig.html)
 
 ## 配置[eslint](https://eslint.bootcss.com/docs/user-guide/getting-started)
+
+## 配置[prettier](https://prettier.io/)
+
+## 配置[stylelint](https://stylelint.io/)

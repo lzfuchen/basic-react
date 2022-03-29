@@ -37,7 +37,14 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-unicorn": "^41.0.1",
     "postcss": "^8.4.12",
+    "postcss-less": "^6.0.0",
     "prettier": "^2.6.1",
+    "stylelint": "^14.6.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
+    "stylelint-order": "^5.0.0",
     "typescript-plugin-css-modules": "^3.4.0"
   },
   "dependencies": {
