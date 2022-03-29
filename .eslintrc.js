@@ -27,7 +27,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['import', 'react', 'unicorn', 'promise', '@typescript-eslint', 'prettier'],
+  plugins: ['react', 'unicorn', 'promise', '@typescript-eslint', 'prettier'],
   settings: {
     'import/resolver': {
       node: {
