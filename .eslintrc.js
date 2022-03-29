@@ -1,4 +1,9 @@
+const OFF = 0
+const WARN = 1
+const ERROR = 2
+
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
@@ -24,6 +29,10 @@ module.exports = {
   },
   plugins: ['react', 'unicorn', 'promise', '@typescript-eslint', 'prettier'],
   rules: {
-    'unicorn/prefer-module': OFF
+    'unicorn/prefer-module': OFF,
+
+    'react/jsx-filename-extension': [ERROR, { extensions: ['.tsx', 'ts', '.jsx', 'js'] }],
+
+    '@typescript-eslint/no-unused-vars': OFF
   }
 }

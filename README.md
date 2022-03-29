@@ -19,3 +19,7 @@
 ## 配置[prettier](https://prettier.io/)
 
 ## 配置[stylelint](https://stylelint.io/)
+
+react react-dom react-router react-router-dom
+
+'ahooks', 'big.js', 'dayjs', 'immer', 'lodash', 'classnames',' 'query-string',
