@@ -27,9 +27,48 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['react', 'unicorn', 'promise', '@typescript-eslint', 'prettier'],
+  plugins: ['import', 'react', 'unicorn', 'promise', '@typescript-eslint', 'prettier'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.tsx', '.ts', '.js', '.json']
+      },
+      alias: {
+        map: [['@', './src/']]
+      },
+      typescript: {}
+    }
+  },
   rules: {
+    'import/no-extraneous-dependencies': OFF,
+    'import/no-import-module-exports': OFF,
+    'import/extensions': [
+      ERROR,
+      'ignorePackages',
+      {
+        ts: 'never',
+        tsx: 'never',
+        js: 'never'
+      }
+    ],
+    'import/no-unresolved': OFF,
+
     'unicorn/prefer-module': OFF,
+    'unicorn/filename-case': [
+      ERROR,
+      {
+        cases: {
+          // 中划线
+          kebabCase: false,
+          // 小驼峰
+          camelCase: true,
+          // 下划线
+          snakeCase: false,
+          // 大驼峰
+          pascalCase: true
+        }
+      }
+    ],
 
     'react/jsx-filename-extension': [ERROR, { extensions: ['.tsx', 'ts', '.jsx', 'js'] }],
 
