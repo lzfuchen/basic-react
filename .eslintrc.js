@@ -54,6 +54,7 @@ module.exports = {
     'import/no-unresolved': OFF,
 
     'unicorn/prefer-module': OFF,
+    'unicorn/prevent-abbreviations': OFF,
     'unicorn/filename-case': [
       ERROR,
       {
@@ -72,6 +73,9 @@ module.exports = {
 
     'react/jsx-filename-extension': [ERROR, { extensions: ['.tsx', 'ts', '.jsx', 'js'] }],
 
-    '@typescript-eslint/no-unused-vars': OFF
+    '@typescript-eslint/no-unused-vars': OFF,
+    '@typescript-eslint/no-var-requires': OFF,
+
+    'global-require': OFF
   }
 }
