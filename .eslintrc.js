@@ -52,6 +52,8 @@ module.exports = {
       }
     ],
     'import/no-unresolved': OFF,
+    'import/order': OFF,
+    'import/no-self-import': OFF,
 
     'unicorn/prefer-module': OFF,
     'unicorn/prevent-abbreviations': OFF,
