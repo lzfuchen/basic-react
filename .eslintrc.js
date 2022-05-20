@@ -73,6 +73,8 @@ module.exports = {
       }
     ],
 
+    'no-underscore-dangle': OFF,
+
     'react/jsx-filename-extension': [ERROR, { extensions: ['.tsx', 'ts', '.jsx', 'js'] }],
 
     '@typescript-eslint/no-unused-vars': OFF,

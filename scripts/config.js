@@ -1,6 +1,8 @@
 const path = require('path')
 
-exports.paths = {
+const __DEV__ = process.env.NODE_ENV !== 'production'
+
+const paths = {
   /**
    * 编译入口文件
    */
@@ -17,4 +19,9 @@ exports.paths = {
    * 静态文件目录
    */
   publicPath: path.resolve(process.cwd(), 'public')
+}
+
+module.exports = {
+  paths,
+  __DEV__
 }
